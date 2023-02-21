@@ -48,10 +48,10 @@ public class MainVerticle extends AbstractVerticle {
     public SqlClient startDB(Vertx vertx) {
         MySQLConnectOptions connectOptions = new MySQLConnectOptions()
                 .setPort(3306)
-                .setHost("34.93.176.252")
+                .setHost("***")
                 .setDatabase("note_db")
-                .setUser("root")
-                .setPassword("Laltu@777");
+                .setUser("***")
+                .setPassword("***");
 
         // Pool options
         PoolOptions poolOptions = new PoolOptions()
